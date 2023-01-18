@@ -49,7 +49,7 @@ metadata:
   namespace: app-test-1
 spec:
   rules:
-  - host: "localhost"
+  - host: gitops.test
     http:
       paths:
       - path: /app-test-1
